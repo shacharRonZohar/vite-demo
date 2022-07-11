@@ -1,6 +1,10 @@
 <template>
   <h1>Hello, i'm App.vue</h1>
-  {{ msg }}
+  <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+  </nav>
+  <router-view />
 </template>
 
 <script>
