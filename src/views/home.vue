@@ -1,6 +1,6 @@
 <template>
   <h2>This is a home page</h2>
-  <fancy-txt txt="Helo" />
+  <fancy-txt txt="Hello" :num="5" />
 </template>
 
 <script>

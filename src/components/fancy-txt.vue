@@ -1,6 +1,7 @@
 <template>
   <h3>Fancy Txt</h3>
   {{ txt }}
+  {{ num }}
 </template>
 
 <script>
@@ -13,7 +14,8 @@ export default {
       required: true,
       default: () => ({ name: 'Puki' }),
       validator: (value) => value.length > 4
-    }
+    },
+    num: Number
   },
 }
 </script>
